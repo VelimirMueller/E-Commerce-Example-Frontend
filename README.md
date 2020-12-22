@@ -20,4 +20,4 @@ UPDATE: 22.12.2020
 Progress:
 
 -added full responsive components and scss styles
--upgraded main-menu.component.jsx for large image thumbnails to chil 4 and 5
+-upgraded main-menu.component.jsx for large image thumbnails to child 4 and 5
