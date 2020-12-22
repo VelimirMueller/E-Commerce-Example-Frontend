@@ -21,7 +21,7 @@ class MainMenu extends React.Component {
       {
         title: 'title 3',
         imageUrl: 'https://images.unsplash.com/photo-1603665330306-dd1a67e0cc4e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80',
-        id: 3
+        id: 3,
       },
       {
         title: 'title 4',

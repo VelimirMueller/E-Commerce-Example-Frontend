@@ -13,4 +13,11 @@ Progress:
 -added scss
 -added favicon
 -added responsiveness
--probably forgot something cause its late ;)
+-probably forgot something cause its late ;
+
+UPDATE: 22.12.2020
+
+Progress:
+
+-added full responsive components and scss styles
+-upgraded main-menu.component.jsx for large image thumbnails to chil 4 and 5
