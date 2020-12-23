@@ -1,5 +1,6 @@
 # opensourceshop
 MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donations
+
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 FIRST SETUP:
@@ -7,6 +8,9 @@ FIRST SETUP:
 run 
 npm install OR yarn install
 in a terminal to install all node_modules required
+
+Then to test the app run in terminal:
+npm start  OR yarn start
 
 -------------------------------------------------------------------
 -------------------------------------------------------------------
@@ -20,6 +24,7 @@ Progress:
 -probably forgot something cause its late ;
 
 UPDATE: 22.12.2020
+
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 
@@ -29,6 +34,7 @@ Progress:
 -upgraded main-menu.component.jsx for large image thumbnails to child 4 and 5
 
 UPDATE: 23.12.2020
+
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 Progress:
@@ -43,7 +49,7 @@ UPDATE: 23.12.2020:
    shop.data 
     contains following shopping item params:
         
-        id: ,               //id of section
+        	id: ,               //id of section
 		title: '',          //section title
 		routeName: '',      //route
 		items: [            //item array with params
@@ -58,5 +64,6 @@ UPDATE: 23.12.2020:
     collection-item         //contains the image, name and other params of shop.data
 
 -added/reworked some scss attribute and responisveness for better looks of all components, now all parts are fully responsive and mobile   optmization is now alot better
+
 -------------------------------------------------------------------
 -------------------------------------------------------------------
