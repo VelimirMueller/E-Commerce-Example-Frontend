@@ -21,3 +21,11 @@ Progress:
 
 -added full responsive components and scss styles
 -upgraded main-menu.component.jsx for large image thumbnails to child 4 and 5
+
+UPDATE: 23.12.2020
+
+Progress:
+
+-added simple routing ability to menu-items withRouter HOC (higher order component)
+HYPED
+        
