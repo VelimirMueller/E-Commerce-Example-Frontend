@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .stopped-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -39,5 +39,5 @@
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  padding: 20px 20px;
+  padding: 19px 20px 20px 10px;
 }

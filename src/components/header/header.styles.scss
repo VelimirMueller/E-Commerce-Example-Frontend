@@ -1,0 +1,29 @@
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .logo-container {
+    height: 10vh;
+
+    .logo{
+      width:150px;
+      height:10vh;
+  }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+    .option {
+      padding: 20px 10px;
+      height:100%;
+    }
+  }
+}

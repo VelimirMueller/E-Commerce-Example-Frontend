@@ -67,3 +67,10 @@ UPDATE: 23.12.2020:
 
 -------------------------------------------------------------------
 -------------------------------------------------------------------
+
+CHRISTMAS UPDATE:
+    -added some minor changes to FrontEnd
+    -added Logo (my own) and Header Navigation
+    -Doesnt looks so good atm so it will be improved soon
+
+MERRY CHRISTMAS EVERYONE
