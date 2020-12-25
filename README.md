@@ -74,3 +74,12 @@ CHRISTMAS UPDATE:
     -Doesnt looks so good atm so it will be improved soon
 
 MERRY CHRISTMAS EVERYONE
+
+---------------------------------------
+---------------------------------------
+
+Added login/logout components/ header section/ buttons
+
+FIREBASE INTEGRATION
+    now login via google is possible
+        login and logout will be dynamically visible in navbar
