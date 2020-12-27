@@ -83,3 +83,7 @@ Added login/logout components/ header section/ buttons
 FIREBASE INTEGRATION
     now login via google is possible
         login and logout will be dynamically visible in navbar
+
+28.12.2020
+
+ADDED NEW COMPONENTS FOR SIGN UP ++ BACKEND FIREBASE INTEGRATION FOR SIGN UP WITH EMAIL + PASSWORD
