@@ -38,9 +38,7 @@ class SignUp extends React.Component {
         email: '',
         password: '',
         confirmPassword: ''        
-      },
-      setTimeout(window.location.replace("/"), 500)
-      );
+      });
     }catch (error){
       console.error(error);
     }
