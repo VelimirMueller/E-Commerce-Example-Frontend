@@ -99,3 +99,14 @@ ADDED NEW COMPONENTS FOR SIGN UP ++ BACKEND FIREBASE INTEGRATION FOR SIGN UP WIT
 ADDED REDUX TO APP AND IMPLEMENTED userReducer AND userActions TO header AND app components
 
 ADDED REDIRECT TO HOMEPAGE AFTER USER IS SIGNED IN AND PREVENT USER TO ACCESS SIGNIN PAGE IF SIGNED IN
+
+---------------------------------------
+---------------------------------------
+
+02.01.2021
+
+UPDATED:
+
+cart.utils to group items in cart reducer
+added quantity prop
+tested functionality
