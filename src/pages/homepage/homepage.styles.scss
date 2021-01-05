@@ -5,4 +5,72 @@
   padding: 5px 10vw;
 }
 
+.banner-image{
+  width: 99.6vw;
+  height:85vh;
+  background-image: url(../../assets/banner-image.jpg);
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top:10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  margin-bottom:25px;
+}
+
+.banner-headline{
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 3px 3px 4px #111, 6px 6px 8px #222,  16px 16px 25px #444, 32px 32px 50px #888, 64px 64px 100px #fff;
+  margin-bottom:25px;
+}
+
+.scroll-down-button{
+  width:30%;
+  height:10%;
+  background-color:none;
+  margin-left:35%;
+  border-radius:25px;
+  color: white;
+  font-size:36%;
+  font-weight: 900;
+  border:solid white 1px;
+  cursor:pointer;
+  text-decoration: none;
+  min-height:40px;
+  padding-top:20px;
+
+  &:hover{
+    background-color:white;
+    text-decoration: underline;
+    color:black;
+    border:solid black 2px;
+  }
+
+  .shopping-banner-icon{
+    height:80%;
+    text-decoration: none;
+  }
+
+
+}
+
+.option{
+  text-decoration: none;
+}
+
+.undraw-cart{
+  margin-left:15%;
+  width:20%;
+  height:250px;
+  background-image: url(../../assets/iso-guy.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left:40%;
+  opacity: 0.65;
+}
 

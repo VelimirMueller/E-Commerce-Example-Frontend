@@ -1,0 +1,14 @@
+.card-wrapper{
+  width:100vw;
+  display: flex;
+  flex-direction: row;
+  height:40vh;
+
+  .card{
+    height:30vh;
+    margin-top:5vh;
+    margin-left:0.5%;
+    width:33%;
+    border: solid black 1px;
+  }
+}

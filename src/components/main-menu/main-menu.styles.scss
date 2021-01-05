@@ -3,4 +3,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  text-align: center;
+  
+  .banner-headline{
+    width:100vw;
+    text-shadow:none;
+    font-size:5rem;
+    margin:2vh 0;
+    text-decoration:none;
+
+    .genres{
+      height:60%;
+      width:auto;
+      margin-left:2vw;
+    }
+  }
 }

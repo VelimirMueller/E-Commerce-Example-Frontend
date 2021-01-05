@@ -1,5 +1,5 @@
 .cart-dropdown {
-  position: absolute;
+  position: fixed;
   width: 240px;
   height: 340px;
   display: flex;
@@ -11,12 +11,31 @@
   right:0;
   z-index: 5;
   margin-right: 2.5vw;
+  z-index: 999;
+
+  .hide-button{
+    border:solid 1px black;
+    align-items: center;
+    text-align: center;
+    margin-left: 75%;
+    cursor:pointer;
+
+    &:hover{
+      background-color: black;
+      color:white;
+    }
+  }
+
+  .empty-message{
+    font-size: 18px;
+    margin: auto auto;
+  }
 
   .cart-items{
     height:240px;
     display:flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y:scroll;
   }
 
   button {

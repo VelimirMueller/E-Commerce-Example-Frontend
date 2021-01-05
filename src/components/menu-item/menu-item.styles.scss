@@ -1,5 +1,5 @@
-$minWidthItem:750px;
-$maxWidthItem:1020px;
+$minWidthItem:660px;
+$maxWidthItem:1030px;
 
 .menu-i {
     width: 30%;
@@ -42,8 +42,10 @@ $maxWidthItem:1020px;
     }
     
     @media screen and (min-width: $minWidthItem){
-      &:nth-child(3) {
-        width: 30%;
+      
+      &:nth-child(4) {
+        width: 60%;
+        height:200px;
       }
     }
     

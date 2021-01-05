@@ -37,11 +37,32 @@
   }
 }
 
+
+
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  padding: 5px 20px 20px 10px;
+  
+  scroll-snap-type: x mandatory;
+  scroll-padding-top: 60px;
+  /* width */
 }
 
-*{
-  box-sizing: border-box;
+html {
+  --scrollbarBG: #dfd0cf;
+  --thumbBG: #000000;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+*::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 3px;
 }

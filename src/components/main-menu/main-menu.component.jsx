@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { ReactComponent as Genres } from '../../assets/genres.svg';
 import MenuItem from '../menu-item/menu-item.component';
 import './main-menu.styles.scss';
 
@@ -45,7 +46,8 @@ class MainMenu extends React.Component {
 
   render() {
     return(
-      <div className='main-menu'>
+      <div className='main-menu'> 
+      <span className='banner-headline'>GENRES<Genres className='genres'></Genres></span>     
         { this.state.sections.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />
         ))}
