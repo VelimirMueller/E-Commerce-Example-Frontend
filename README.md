@@ -110,3 +110,14 @@ UPDATED:
 cart.utils to group items in cart reducer
 added quantity prop
 tested functionality
+
+---------------------------------------
+---------------------------------------
+
+03.01.2021
+
+UPDATED
+added alot of functionality and components to the shop app
+added some pictures and isometrics
+added footer
+add cart-dropdown feature: hide cart

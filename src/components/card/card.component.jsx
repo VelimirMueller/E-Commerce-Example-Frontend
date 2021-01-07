@@ -5,13 +5,7 @@ import CardInput from '../card-input/card-input.component';
 import './card.styles.scss'
 
 const Card = () => (
-  <div className='card-wrapper'>
-    <div className='card'>
-        <CardInput></CardInput>
-    </div>
-    <div className='card'>
-        <CardInput></CardInput>
-    </div>
+  <div className='card-wrapper margin-bot-top'>
     <div className='card'>
         <CardInput></CardInput>
     </div>

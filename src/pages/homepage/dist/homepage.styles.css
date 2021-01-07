@@ -1,0 +1,154 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10vw;
+}
+
+.banner-image {
+  width: 99.6vw;
+  height: 75vh;
+  background-image: url(../../assets/banner-image.jpg);
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 25px;
+}
+
+.banner-headline {
+  text-decoration: underline;
+  font-weight: 700;
+  text-shadow: 3px 3px 4px #111, 6px 6px 8px #222, 16px 16px 25px #444, 32px 32px 50px #888, 64px 64px 100px #fff;
+  font-size: 2.25rem;
+}
+
+.fullwidth {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.margin-bot-top {
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+}
+
+.scroll-down-button {
+  width: 32%;
+  height: 8.5%;
+  background-color: none;
+  margin-left: 34%;
+  color: white;
+  font-size: 40%;
+  font-weight: 700;
+  border: solid white 2px;
+  cursor: pointer;
+  text-decoration: none;
+  min-height: 40px;
+}
+.scroll-down-button:hover {
+  background-color: white;
+  text-decoration: underline;
+  color: black;
+  border: solid black 2px;
+}
+.scroll-down-button .shopping-banner-icon {
+  height: 80%;
+  text-decoration: none;
+}
+
+.option {
+  text-decoration: none;
+}
+
+.banner-head-image {
+  background-image: url(../../assets/painting.png);
+  width: 40vw;
+  height: 30vh;
+  margin-left: 30vw;
+  background-size: cover;
+  opacity: 0.75;
+  background-position: contain;
+}
+
+.undraw-cart {
+  margin-left: 15%;
+  width: 20%;
+  height: 250px;
+  background-image: url(../../assets/iso-guy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 40%;
+  opacity: 0.65;
+}
+
+.big-logo {
+  width: 80vw;
+  height: 20vh;
+}
+
+.draw-border {
+  box-shadow: inset 0 0 0 4px #92a1a3da;
+  color: #92a1a3da;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+.draw-border::before, .draw-border::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.draw-border::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+.draw-border::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+.draw-border:hover {
+  color: #eeedea;
+}
+.draw-border:hover::before, .draw-border:hover::after {
+  border-color: #eeedea;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem "Roboto Slab", sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+}
+.btn:focus {
+  outline: 2px dotted #fcfcfc;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+}

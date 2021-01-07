@@ -5,9 +5,10 @@
   padding: 5px 10vw;
 }
 
+
 .banner-image{
   width: 99.6vw;
-  height:85vh;
+  height:75vh;
   background-image: url(../../assets/banner-image.jpg);
   color: white;
   font-size: 5rem;
@@ -23,23 +24,33 @@
   text-decoration: underline;
   font-weight: 700;
   text-shadow: 3px 3px 4px #111, 6px 6px 8px #222,  16px 16px 25px #444, 32px 32px 50px #888, 64px 64px 100px #fff;
-  margin-bottom:25px;
+  
+  font-size: 2.25rem;
+}
+
+.fullwidth{
+  width:100vw;
+  height:20vh;
+  background-color:rgba(255, 255, 255, 0.705);
+}
+
+.margin-bot-top{
+  margin-bottom: 5vh;
+  margin-top:1vh;
 }
 
 .scroll-down-button{
-  width:30%;
-  height:10%;
+  width:32%;
+  height:8.5%;
   background-color:none;
-  margin-left:35%;
-  border-radius:25px;
+  margin-left:34%;
   color: white;
-  font-size:36%;
-  font-weight: 900;
-  border:solid white 1px;
+  font-size:40%;
+  font-weight: 700;
+  border:solid white 2px;
   cursor:pointer;
   text-decoration: none;
   min-height:40px;
-  padding-top:20px;
 
   &:hover{
     background-color:white;
@@ -60,6 +71,16 @@
   text-decoration: none;
 }
 
+.banner-head-image{
+  background-image: url(../../assets/painting.png);
+  width:40vw;
+  height:30vh;
+  margin-left: 30vw;
+  background-size: cover;
+  opacity:0.75;
+  background-position:contain;
+}
+
 .undraw-cart{
   margin-left:15%;
   width:20%;
@@ -74,3 +95,82 @@
   opacity: 0.65;
 }
 
+.big-logo{
+  width:80vw;
+  height: 20vh;
+}
+
+//=== Drawing effect
+
+@mixin btn-border-drawing($color: #ccc, $hover: black, $width: 2px, $vertical: top, $horizontal: left, $duration: 0.25s) {
+  box-shadow: inset 0 0 0 $width $color;
+  color: $color;
+  transition: color $duration $duration/3;
+  position: relative;
+  
+  &::before,
+  &::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: '';
+    pointer-events: none;
+    position: absolute;
+    width: 0; height: 0;
+    
+    #{$vertical}: 0; 
+    #{$horizontal}: 0;
+  }
+
+  &::before {
+    $h-side: if($horizontal == 'left', 'right', 'left');
+    
+    border-#{$vertical}-width: $width;
+    border-#{$h-side}-width: $width;
+  }
+  
+  &::after {
+    $v-side: if($vertical == 'top', 'bottom', 'top');
+    
+    border-#{$v-side}-width: $width;
+    border-#{$horizontal}-width: $width;
+  }
+  
+  &:hover {
+    color: $hover;
+    
+    &::before,
+    &::after {
+      border-color: $hover;
+      transition: border-color 0s, width $duration, height $duration;
+      width: 100%;
+      height: 100%;
+    }
+    
+    &::before { transition-delay: 0s, 0s, $duration; }
+    
+    &::after { transition-delay: 0s, $duration, 0s; }
+  }
+}
+
+.draw-border {
+  @include btn-border-drawing(#92a1a3da, #eeedea, 4px, bottom, right);
+}
+
+//=== Button styling, semi-ignore
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 1.2rem 'Roboto Slab', sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  
+  &:focus { outline: 2px dotted #fcfcfc; }
+}
+
+//=== Pen styling, ignore
+body { 
+  align-items: center;
+  justify-content: center;
+}
