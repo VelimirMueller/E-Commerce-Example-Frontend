@@ -1,6 +1,26 @@
 # opensourceshop
 MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donations
 
+
+2021 DOKUMENTATION
+
+Hello Visitors,
+
+I have changed alot in this Application:
+
+-Changed Designs
+-Added New Banned Images created  with Figma
+-Added full responsiveness to all pages and all components
+-added new button style (not happy with it, will be changed during development)
+-added prototype footer component
+-added cart dropdown functions
+
+------------------------------------------
+------------------------------------------
+
+
+
+LEGACY DOKUMENTATION
 -------------------------------------------------------------------
 -------------------------------------------------------------------
 FIRST SETUP:

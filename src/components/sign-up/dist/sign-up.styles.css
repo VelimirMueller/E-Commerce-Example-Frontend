@@ -1,0 +1,18 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+}
+.sign-up .title {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 750px) {
+  .sign-up {
+    width: 80%;
+    height: 90vh;
+    position: relative;
+    margin-top: 400px;
+    min-height: 500px;
+  }
+}

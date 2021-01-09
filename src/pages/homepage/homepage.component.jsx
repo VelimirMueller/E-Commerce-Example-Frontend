@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import MainMenu from '../../components/main-menu/main-menu.component';
-
+import ButtonSetFocus from '../../components/button-set/button-set-focus/button-set-focus.component';
 import Card from '../../components/card/card.component';
 
 
@@ -17,11 +17,9 @@ const HomePage = () => (
       <Logo className="big-logo"></Logo>
       </div>
       <Link className='option' to='/shop'>
-      <button class="btn draw-border">Draw Border</button>
+      <ButtonSetFocus></ButtonSetFocus>
       </Link>
     </div>
-      <Card>
-      </Card>
       <MainMenu />
   </div>
  

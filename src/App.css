@@ -38,10 +38,8 @@
 }
 
 
-
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  
   scroll-snap-type: x mandatory;
   scroll-padding-top: 60px;
   /* width */
@@ -50,6 +48,7 @@ body {
 html {
   --scrollbarBG: #dfd0cf;
   --thumbBG: #000000;
+  overflow-x:hidden;
 }
 *::-webkit-scrollbar {
   width: 12px;

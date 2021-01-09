@@ -1,3 +1,5 @@
+$maxWidthItem2:750px;
+
 .sign-in{
     width: 48%;
     display: flex;
@@ -13,3 +15,13 @@
         box-sizing: border-box;
     }
 }
+  
+  @media screen and (max-width: $maxWidthItem2){
+    .sign-in {
+        width: 80%;
+        height:90vh;
+        position:absolute;
+        min-height:900px;
+        margin-bottom:200px;
+    }
+  }

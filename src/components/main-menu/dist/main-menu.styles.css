@@ -1,0 +1,21 @@
+.main-menu {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-menu .banner-headline {
+  width: 100vw;
+  text-shadow: none;
+  font-size: 5rem;
+  margin: 2vh 0;
+  text-decoration: none;
+}
+.main-menu .banner-headline .genres {
+  height: 60%;
+  width: auto;
+  margin-left: 2vw;
+}

@@ -2,13 +2,14 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
-
+import SmallHeightMaxWidth from '../../components/small-height-max-width/small-height-max-width.component';
 import { selectCartItems, selectCartTotal } from '../../redux/cart/cart.selectors';
 
 import './checkout.styles.scss';
 
 const CheckoutPage = ({cartItems, total}) => (
   <div className='checkout-page'>
+    <SmallHeightMaxWidth />
     <div className='checkout-header'>
       <div className='header-block'>
         <span>Product</span>

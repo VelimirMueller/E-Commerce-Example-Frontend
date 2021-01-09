@@ -4,6 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   
   .banner-headline{
     width:100vw;
@@ -11,7 +13,7 @@
     font-size:5rem;
     margin:2vh 0;
     text-decoration:none;
-
+    
     .genres{
       height:60%;
       width:auto;
