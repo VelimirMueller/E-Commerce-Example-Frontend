@@ -23,3 +23,15 @@
     }
   }
 }
+
+.quantity {
+  display: flex;
+}
+
+.arrow{
+  cursor:pointer;
+}
+
+.value {
+  margin: 0 5px;
+}

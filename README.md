@@ -4,6 +4,12 @@ MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donati
 
 2021 DOKUMENTATION
 
+09.01.2020
+
+ADDED PERSIST TO CART WITH REDUX
+
+___________________________________________
+___________________________________________
 Hello Visitors,
 
 I have changed alot in this Application:
