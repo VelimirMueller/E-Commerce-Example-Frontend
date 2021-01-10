@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 40vh;
+  padding-top: 10vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.footer .middle-footer, .footer .right-footer, .footer .left-footer {
+  width: 33%;
+}
+.footer .middle-footer a, .footer .right-footer a, .footer .left-footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+.footer .middle-footer a:hover, .footer .right-footer a:hover, .footer .left-footer a:hover {
+  background-color: black;
+  color: white;
+}

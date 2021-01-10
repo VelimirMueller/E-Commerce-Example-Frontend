@@ -8,6 +8,8 @@
   background-color: white;
   margin-top: 0;
   max-height: 50px;
+  justify-content: center;
+  align-items: center;
 }
 .header .logo-container {
   height: 100%;
@@ -15,7 +17,6 @@
   margin-right: 15vw;
 }
 .header .logo {
-  margin-top: 1.25vh;
   height: 70px;
   width: 150px;
 }

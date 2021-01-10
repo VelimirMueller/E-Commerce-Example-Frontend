@@ -14,10 +14,13 @@
   align-items: center;
 }
 .checkout-item .image-container img {
-  width: 100%;
+  margin-left: 15%;
+  width: 70%;
   height: 100%;
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
+  border: solid black 1px;
 }
 .checkout-item .name,
 .checkout-item .quantity,

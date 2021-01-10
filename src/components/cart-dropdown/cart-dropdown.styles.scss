@@ -19,6 +19,7 @@
     text-align: center;
     margin-left: 75%;
     cursor:pointer;
+    border-radius: 5px;
 
     &:hover{
       background-color: black;
@@ -40,5 +41,6 @@
 
   button {
     margin-top: auto;
+    border-radius: 20px;
   }
 }

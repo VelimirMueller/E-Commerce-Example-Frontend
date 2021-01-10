@@ -1,16 +1,33 @@
+$minWidthItem:660px;
+$maxWidthItem:1030px;
+
 .card-wrapper{
-  width:100vw;
   display: flex;
   flex-direction: row;
-  height:90vh;
-  margin-bottom:13vh;
 
   .card{
-    margin-top:5vh;
-    margin-left:2%;
-    width:33%;
-    border: solid black 1px;
-    height:45vh;
+    width:49.5vw;
+    height:100vh;
+  }
+
+  .card1{
+    background-image: url(../../assets/img/artist.jpg);
+    background-size: cover;
+  }
+
+  .card2{
+    background-image: linear-gradient(to right, #8aacd43d, #ffffff);
   }
 }
+
+@media screen and (max-width: $minWidthItem){
+  .card-wrapper{
+    flex-direction: column !important;
+  }
+  .card{
+    min-width:100vw;
+  }
+  
+}
+
 

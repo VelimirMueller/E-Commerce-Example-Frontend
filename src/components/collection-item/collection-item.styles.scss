@@ -24,6 +24,8 @@ $maxWidthItem:1020px;
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 5px;
+		border-radius: 20px;
+		border: solid 2px #030303
 	}
 	
 	.custom-button {
@@ -31,8 +33,15 @@ $maxWidthItem:1020px;
 		opacity: 0.7;
 		position: absolute;
     bottom:100px;
-    display:none;
-  }
+		display:none;
+		border-radius: 20px;
+	}
+	@media screen and (max-width: $minWidthItem){
+		.custom-button{
+			display:flex;	
+		}
+	}
+
   
   &:hover {
     .image{
@@ -72,3 +81,4 @@ $maxWidthItem:1020px;
       display:hidden;
     }
 }
+
