@@ -5,6 +5,7 @@
 .card-wrapper .card {
   width: 49.5vw;
   height: 100vh;
+  min-height: 550px;
 }
 .card-wrapper .card1 {
   background-image: url(../../assets/img/artist.jpg);

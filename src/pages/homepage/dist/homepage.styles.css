@@ -16,6 +16,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  min-height: 450px;
 }
 
 .banner-headline {
@@ -23,6 +24,7 @@
   font-weight: 700;
   text-shadow: 3px 3px 4px #111, 6px 6px 8px #222, 16px 16px 25px #444, 32px 32px 50px #888, 64px 64px 100px #fff;
   font-size: 2.25rem;
+  min-height: 120px;
 }
 
 .fullwidth {
@@ -31,6 +33,11 @@
   background-color: rgba(255, 255, 255, 0.705);
   border-top: solid 1px white;
   box-shadow: 5px 5px 15px 5px #000000;
+  min-height: 120px;
+}
+.fullwidth svg {
+  min-height: 120px;
+  min-width: 120px;
 }
 
 .margin-bot-top {
