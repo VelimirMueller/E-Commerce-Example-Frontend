@@ -24,7 +24,7 @@ $maxWidthItem:1020px;
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 5px;
-		border-radius: 20px;
+		
 		border: solid 2px #030303;
 		box-shadow: 5px 5px 15px 5px #000000;
 	}
@@ -33,10 +33,11 @@ $maxWidthItem:1020px;
 		width:80%;
 		opacity: 0.7;
 		position: absolute;
-    bottom:100px;
+    	bottom:100px;
 		display:none;
 		border-radius: 20px;
-	}
+		box-shadow: -1px 2px 2px 1px rgba(255, 255, 255, 0.151);
+		}
 	@media screen and (max-width: $minWidthItem){
 		.custom-button{
 			display:flex;	

@@ -23,4 +23,8 @@
   .card {
     min-width: 100vw;
   }
+
+  .card {
+    max-height: 70vh;
+  }
 }

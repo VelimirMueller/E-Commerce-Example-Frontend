@@ -13,7 +13,6 @@ const CardInput = () => (
 			<li>Stripe payment gateway</li>
 			<li>fully responsive</li>
 			<li>persistant cart</li>
-			<li>Cookies</li>
 		</ul>
 		</div>
 	</div>
