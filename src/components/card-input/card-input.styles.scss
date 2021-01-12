@@ -1,5 +1,33 @@
-h1{
+h3{
     width:100%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+
+.square{
+    margin-left:15%;
+    display:flex;
+    flex-direction: column;
+    counter-reset: list-counter;
+    list-style: none;
+    float:left;
+    height:100%;
+}
+.square li{
+    margin: 1.5em 0;    
+}
+.square li:before{
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    width: 1em;
+    height: 1em;
+    padding: .5em;
+    margin-right: 1em;
+    border: .25em solid rgb(23, 190, 231);
+    background: rgb(13, 6, 46);
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 15px 5px #000000;
 }

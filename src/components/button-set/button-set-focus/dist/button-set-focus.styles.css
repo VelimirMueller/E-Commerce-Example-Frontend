@@ -4,10 +4,12 @@
   transition: color 0.25s 0.0833333333s;
   position: relative;
   border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
   width: 30vw;
   min-width: 200px;
   margin-left: 10%;
   margin-right: 90%;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 .draw-border::before, .draw-border::after {
   border: 0 solid transparent;
@@ -52,6 +54,7 @@
   font: 700 1.2rem "Roboto Slab", sans-serif;
   padding: 1em 2em;
   letter-spacing: 0.05rem;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 .btn:focus {
   outline: 2px dotted #63879e8f;

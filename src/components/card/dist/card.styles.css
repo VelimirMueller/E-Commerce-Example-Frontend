@@ -11,7 +11,8 @@
   background-size: cover;
 }
 .card-wrapper .card2 {
-  background-image: linear-gradient(to right, #8aacd43d, #ffffff);
+  background-image: #f0f0f0;
+  box-shadow: 5px 5px 15px 5px #000000;
 }
 
 @media screen and (max-width: 660px) {
