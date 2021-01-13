@@ -24,12 +24,17 @@ $maxWidthItem:1020px;
 		background-size: cover;
 		background-position: center;
 		margin-bottom: 5px;
-		
+		transition: box-shadow 1.5s;
 		border: solid 2px #030303;
 		box-shadow: 5px 5px 15px 5px #000000;
+
+		&:hover{
+			box-shadow: 5px 5px 15px 5px #1788bd;
+		}
 	}
 	
 	.custom-button {
+		transition: background-color 0.6s;
 		width:80%;
 		opacity: 0.7;
 		position: absolute;

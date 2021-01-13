@@ -52,7 +52,7 @@
   }
   
   .draw-border {
-    @include btn-border-drawing(#200b0bf8, #05435ca9, 0px, bottom, right);
+    @include btn-border-drawing(#200b0bf8, #3f97ca, 0px, bottom, right);
     width:30vw;
     min-width:200px;
     margin-left:10%;
@@ -69,7 +69,7 @@
     padding: 1em 2em;
     letter-spacing: 0.05rem;
     box-shadow: 5px 5px 15px 5px #000000;
-    &:focus { outline: 2px dotted #63879e8f; }
+    &:focus { outline: 2px dotted #306ebe; }
     &:hover{
       transform: scale(1.05);
     }

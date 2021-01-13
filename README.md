@@ -7,6 +7,7 @@ MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donati
 
 UPDATED DESIGN:
 ADDED MATERIAL DESIGN (ALSO REFACTORED SOME COMPONENTS) TO SOME COMPONENTS TO MAKE THE APP MORE APPEALING
+ADDED SOME BEAUTIFUL TRANSITION EFFECTS ON A LOT OF COMPONENTS
 --------------------------
 --------------------------
 09.01.2020

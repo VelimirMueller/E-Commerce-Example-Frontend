@@ -1,7 +1,22 @@
 h3{
     width:100%;
     text-align: center;
-    font-size: 2.25rem;
+    font-size: 2.75rem;
+    text-shadow: 2px 5px 18px rgb(23, 190, 231);
+    border-top:solid 11px #d83f02c4;
+    border-bottom:solid 11px #c74221c5;
+    box-shadow: 5px 5px 15px 5px #000000;
+    transition: color 1.7s, box-shadow 1.75s, border-bottom .5s, border-top 1s, text-shadow 1.2s, text-decoration 2.2s;
+    
+    &:hover{
+      color: #d64907;
+      text-shadow: 2px 2px 8px #ff5e00;
+      border-top:solid 11px rgb(23, 190, 231);
+      border-bottom:solid 11px rgb(22, 169, 206);
+      text-decoration: underline;
+      text-decoration-color:#c74221;
+      box-shadow: 5px 5px 15px 5px #1fd0e7;
+    }
 }
 
 .square{
@@ -15,7 +30,40 @@ h3{
 }
 .square li{
     margin: 2.5em 0;
+    font-size:1.25rem;
+    font-weight:900;
+    transition: color 4s, box-shadow 1.4s, transform 1s, text-shadow 1.2s, text-decoration 1.7s;
+
+    &:nth-child(1):hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+        text-decoration-color:#ff7e05;
+        text-shadow:2px 2px 15px #ff7e05;
+        color: #83440c;
+    }
+    &:nth-child(2):hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+        text-decoration-color:#fc48ed;
+        text-shadow:2px 2px 15px #fc48ed;
+        color: #94278b;
+    }
+    &:nth-child(3):hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+        text-decoration-color:#0cf5c2;
+        text-shadow:2px 2px 15px #0cf5c2;
+        color: #0a866b;
+    }
+    &:nth-child(4):hover{
+        transform: scale(1.1);
+        text-decoration: underline;
+        text-decoration-color:#ffd20b;
+        text-shadow:2px 2px 15px #ffd20b;
+        color: #7c650a;
+    }
 }
+
 .square li:before{
     content: counter(list-counter);
     counter-increment: list-counter;
@@ -31,3 +79,5 @@ h3{
     text-align: center;
     box-shadow: 5px 5px 15px 5px #000000;
 }
+
+

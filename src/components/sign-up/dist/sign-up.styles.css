@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   width: 48%;
+  transition: box-shadow 2s;
+}
+.sign-up:hover {
+  box-shadow: 3px 3px 3px 5px rgba(231, 141, 6, 0.781);
 }
 .sign-up .title {
   margin: 10px 0;

@@ -6,7 +6,10 @@
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
- 
+  transition: background-color 1.2s;
+  &:hover{
+    background-color:rgba(60, 186, 236, 0.137);
+  }
 
   .image-container {
     width: 21%;

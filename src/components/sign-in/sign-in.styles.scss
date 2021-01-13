@@ -4,6 +4,11 @@ $maxWidthItem2:750px;
     width: 48%;
     display: flex;
     flex-direction: column;
+    transition: box-shadow 2.5s;
+    
+    &:hover{
+        box-shadow: 3px 3px 3px 5px rgba(6, 186, 231, 0.781);
+    }
 
     .title{
         margin: 0px 0;

@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
+  margin-top: 50px;
 }
 .checkout-page .checkout-header .header-block {
   text-transform: capitalize;

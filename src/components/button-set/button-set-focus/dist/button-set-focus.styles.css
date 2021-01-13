@@ -31,10 +31,10 @@
   border-right-width: 0px;
 }
 .draw-border:hover {
-  color: #05435ca9;
+  color: #306ebe;
 }
 .draw-border:hover::before, .draw-border:hover::after {
-  border-color: rgba(93, 165, 212, 0.795);
+  border-color: #306ebe;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
@@ -57,7 +57,7 @@
   box-shadow: 5px 5px 15px 5px #000000;
 }
 .btn:focus {
-  outline: 2px dotted #63879e8f;
+  outline: 2px dotted #306ebe;
 }
 .btn:hover {
   transform: scale(1.05);

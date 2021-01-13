@@ -8,8 +8,8 @@ const CardInput = () => (
 		<h3>FEATURES</h3>
 		
 		<ul class="square">
-			<li>Firebase user authentication</li>
-			<li>Stripe payment gateway</li>
+			<li>Firebase auth</li>
+			<li>Stripe</li>
 			<li>fully responsive</li>
 			<li>persistant cart</li>
 		</ul>
