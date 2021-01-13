@@ -3,11 +3,11 @@ import React from 'react';
 import './card-input.styles.scss';
 
 const CardInput = () => (
-	<div class='card-input'>
+	<div className='card-input'>
 	
 		<h3>FEATURES</h3>
 		
-		<ul class="square">
+		<ul className="square">
 			<li>Firebase auth</li>
 			<li>Stripe</li>
 			<li>fully responsive</li>

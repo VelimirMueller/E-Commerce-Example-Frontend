@@ -3,6 +3,11 @@ MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donati
 
 
 2021 DOKUMENTATION
+
+ADDED NEW REDUCERS/SELECTORS AND SO ON (REDUX FILES) =>
+CLEANER COMPONENTS AND CLEANER PAGES
+________________________________
+________________________________
 12.01.2021
 
 UPDATED DESIGN:
