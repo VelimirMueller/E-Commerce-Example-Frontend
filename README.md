@@ -1,8 +1,15 @@
 # opensourceshop
-MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway + donations
+MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway 
 
 
 2021 DOKUMENTATION
+
+18.01.2020
+ADDED NEW DYNAMIC ROUTES FOR SHOP SECTIONS
+ADDED ALOT OF REDUX
+ADDED MEMOIZE FOR SHOP SELECTOR
+_____________________________________
+_____________________________________
 
 ADDED NEW REDUCERS/SELECTORS AND SO ON (REDUX FILES) =>
 CLEANER COMPONENTS AND CLEANER PAGES

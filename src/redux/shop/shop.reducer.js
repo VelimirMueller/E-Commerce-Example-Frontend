@@ -5,10 +5,10 @@ const INITIAL_STATE = {
 };
 
 const shopReducer = (state = INITIAL_STATE, action) => {
-  switch(action.type) {
+  switch (action.type) {
     default:
-      return state
+      return state;
   }
-}
+};
 
 export default shopReducer;

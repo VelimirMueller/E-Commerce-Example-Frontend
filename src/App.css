@@ -46,12 +46,12 @@ body {
 }
 
 html {
-  --scrollbarBG: #dfd0cf;
-  --thumbBG: #000000;
+  --scrollbarBG: #fff;
+  --thumbBG: #000;
   overflow-x:hidden;
 }
 *::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 * {
   scrollbar-width: thin;
@@ -63,5 +63,5 @@ html {
 }
 *::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG) ;
-  border-radius: 3px;
+  border-radius: 0px;
 }

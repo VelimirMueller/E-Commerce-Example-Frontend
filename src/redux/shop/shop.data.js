@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-	{
+const SHOP_DATA = {
+	fractals: {
 		id: 1,
 		title: 'Fractal Art',
 		routeName: 'fractals',
@@ -42,7 +42,7 @@ const SHOP_DATA = [
 		]
 	},
 
-	{
+	classics: {
 		id: 2,
 		title: 'Classic Art',
 		routeName: 'classics',
@@ -85,7 +85,7 @@ const SHOP_DATA = [
 		]
 	},
 
-	{
+	moderns: {
 		id: 3,
 		title: 'Modern Art',
 		routeName: 'moderns',
@@ -128,7 +128,7 @@ const SHOP_DATA = [
 		]
 	},
 
-	{
+	landscapes: {
 		id: 4,
 		title: 'Landscape art',
 		routeName: 'landscapes',
@@ -171,7 +171,7 @@ const SHOP_DATA = [
 		]
 	},
 
-	{
+	skylines: {
 		id: 5,
 		title: 'Skyline art',
 		routeName: 'skylines',
@@ -213,6 +213,6 @@ const SHOP_DATA = [
 			}
 		]
 	}
-];
+};
 
 export default  SHOP_DATA;
