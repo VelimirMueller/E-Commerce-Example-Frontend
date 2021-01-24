@@ -5,9 +5,20 @@
   padding: 5px 10vw;
 }
 
+@keyframes color-me-in {
+  0% {
+    color: #160309d5;
+    text-shadow: 2px 2px 12px aqua;
+    opacity: 0.9;
+  }
+  100% {
+    color: #3d1616;
+    opacity: 1;
+  }
+}
 .banner-image {
   width: 99.6vw;
-  height: 75vh;
+  height: 80vh;
   background-image: url(../../assets/img/figmatry.png);
   color: white;
   font-size: 5rem;

@@ -6,6 +6,9 @@ MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway
 
 24.01.200
 ADDED STRIPE TEST INTEGRATION
+ADDED NEW COMPONENT: HOVER-HEADLINE
+UPDATED VISUALS / TEXTS OF OLDER COMPONENTS
+UPDATED SOME SCSS TRANSITIONS
 _____________________________________
 _____________________________________
 

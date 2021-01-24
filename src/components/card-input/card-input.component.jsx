@@ -10,7 +10,7 @@ const CardInput = () => (
 		<ul className="square">
 			<li>Firebase auth</li>
 			<li>Stripe</li>
-			<li>fully responsive</li>
+			<li>responsive</li>
 			<li>persistant cart</li>
 		</ul>
 	

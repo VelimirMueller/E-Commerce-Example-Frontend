@@ -37,6 +37,10 @@
   }
 }
 
+*{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 
 body {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -65,3 +69,5 @@ html {
   background-color: var(--thumbBG) ;
   border-radius: 0px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');

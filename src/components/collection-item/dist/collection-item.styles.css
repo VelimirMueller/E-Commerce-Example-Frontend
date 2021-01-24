@@ -56,6 +56,9 @@
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 .collection-item .collection-footer.name {
   width: 100%;

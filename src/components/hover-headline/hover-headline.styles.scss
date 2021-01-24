@@ -1,0 +1,51 @@
+.shop-item-text{ 
+    color: #53021d; 
+    font-size: 4.5rem;  
+    font-weight: 900; 
+    margin-bottom: 35px;  
+    text-align: center;  
+    margin-bottom:15px; 
+    text-shadow: 2px 2px 2px #e41b5e;
+    animation: color-me-in 5s infinite alternate-reverse;
+    transition: background-color 1.2s;
+    border-top:none;
+    background-color:rgba(255, 255, 255, 0.337);
+    padding-top:45px;
+}
+  
+.bg-img-categories{
+    margin-top:10px;
+    margin-bottom:10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top:none;
+    background-image: url(https://images.unsplash.com/photo-1457461027293-311fd5a4a6d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    
+
+    &:hover{
+      background-color:white;
+      color:black;
+      
+      .shop-item-text{
+        background-color:rgba(60, 186, 236, 0.137);
+      }
+    }
+}
+
+.bg-img-features{
+    background-size:cover;
+    background-position: center;
+    border-top:none;
+    background-image: url(https://images.unsplash.com/photo-1490682143684-14369e18dce8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80);
+    margin-bottom:30px;
+
+    &:hover{
+      background-color:white;
+      color:black;
+      
+      .shop-item-text{
+        background-color:rgba(236, 160, 60, 0.137);
+      }
+    }
+}

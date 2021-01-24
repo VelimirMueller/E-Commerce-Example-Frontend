@@ -1,6 +1,7 @@
 .card-wrapper {
   display: flex;
   flex-direction: row;
+  font-family: "Orbitron", sans-serif;
 }
 .card-wrapper .card {
   width: 49.5vw;

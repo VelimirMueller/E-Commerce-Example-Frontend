@@ -10,6 +10,7 @@ import Card from '../../components/card/card.component';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 import './homepage.styles.scss'
+import HoverHeadline from '../../components/hover-headline/hover-headline.component';
 
 const HomePage = () => (
   
@@ -25,8 +26,11 @@ const HomePage = () => (
         <ButtonSetFocus2></ButtonSetFocus2>
       </Link>
     </div>
-      <Card />
-      <MainMenu />
+    <HoverHeadline className='bg-img-categories' textInput='SHOP CATEGORIES' />
+    <MainMenu />
+    <HoverHeadline className='bg-img-features' textInput='SHOP FEATURES' />
+    <Card />
+    
   </div>
  
 );

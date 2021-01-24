@@ -3,12 +3,24 @@
   flex-direction: column;
   align-items: center;
   padding: 5px 10vw;
-  
+}
+
+@keyframes color-me-in {
+  0% {
+    color:#160309d5;
+    text-shadow:2px 2px 12px aqua;
+    opacity:0.9;
+  }
+  100% {
+    color:rgb(61, 22, 22);
+    opacity:1;
+  }
+
 }
 
 .banner-image{
   width: 99.6vw;
-  height:75vh;
+  height:80vh;
   background-image: url(../../assets/img/figmatry.png);
   color: white;
   font-size: 5rem;
@@ -35,7 +47,7 @@
   border-top: solid 1px white;
   box-shadow: 5px 5px 15px 5px #000000;
   min-height:120px;
-
+  
   svg{
     min-height:120px;
     min-width:120px;

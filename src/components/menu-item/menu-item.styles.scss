@@ -12,12 +12,14 @@ $maxWidthItem:1030px;
     margin: 7.5px 7.5px 7.5px 7.5px;
     overflow: hidden;
     opacity: 0.95;
-    
+    transition: box-shadow 1s;
     box-shadow: 5px 5px 15px 5px #000000;
 
     &:hover {
       cursor: pointer;
       opacity: 1;
+      box-shadow: 0px 0px 15px 5px #1788bd;
+      
     
       & .background-image{
         transform: scale(1.125);
