@@ -4,6 +4,11 @@ MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway
 
 2021 DOKUMENTATION
 
+24.01.200
+ADDED STRIPE TEST INTEGRATION
+_____________________________________
+_____________________________________
+
 18.01.2020
 ADDED NEW DYNAMIC ROUTES FOR SHOP SECTIONS
 ADDED ALOT OF REDUX
