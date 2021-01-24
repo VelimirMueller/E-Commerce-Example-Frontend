@@ -1,5 +1,5 @@
 {
-  "name": "VLM-Webshops",
+  "name": "vlm-webshop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
