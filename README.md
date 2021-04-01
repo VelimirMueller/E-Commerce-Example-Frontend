@@ -1,5 +1,5 @@
 # opensourceshop
-MIT licensed shop for Reacttraining + Firebase + Stripe payment gateway 
+React + Redux + Firebase + Stripe 
 
 
 2021 DOKUMENTATION
